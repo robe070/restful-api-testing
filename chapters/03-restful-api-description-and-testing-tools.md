@@ -50,13 +50,17 @@ REST-assured[[8](../README.md/#rest-assured)] is very good testing tool for _RES
 
 Postman[[9](../README.md/#postman)] is a browser extension which allows you to define HTTP[[14](../README.md/#HTTP)] requests and browse its responses. It is basic version of this tool. It is possible to pay for premium usage which allows writing some expectations to response and so creaton of tests.
 
-User interface is very simple and modern. Definition of requests and response is similar to SOAP UI[[7](../README.md/#SOAPUI)] but this tool support RESTful services only. However it is simple to click and add header or parameter to a request. It also supports user friendly definition of authentification so it is not needed to think about hashing algorithms. It requires writing of important parameters then hashing and setup of headers is done by Postman.
+User interface is very simple and modern. Definition of requests and response is similar to SOAP UI[[7](../README.md/#SOAPUI)] but this tool support RESTful services only. However it is simple to click and add header or parameter to a request. It also supports user friendly definition of authentication so it is not needed to think about hashing algorithms. It requires writing of important parameters then hashing and setup of headers is done by Postman.
 
 Postman[[9](../README.md/#postman)] supports almost all general HTTP[[14](../README.md/#HTTP)] methods and authentications. Definition of URL parameters is also very simple - it is definition of key and its value. Url encoding is done automaticaly. Interesting thing is it supports definition of different environments for sending requests. It is useful for running the same request on testing server and on local machine. Postman also allows grouping of requests to collections. The collection can be run by one click. It is very simple to test new feature in API by your own.
 
 On the other hand writing assertions is a little bit harder. It needs JavaScript to write simple assertions. However it is so simple that it can be done by almost everyone. It also allows to assert response time to be fast enough. It can be uselful for basic performance testing. After all it can run defined collections of tests using defined environments. However I see a problem here.
 
-It still requires click to a button to run tests. Then it is needed to check manually if all tests passes. I have not found any way how to run these tests on some CI server. It is the reason why I do not use it for this purpose. I can recomend it if you want to test simple API without any CI server and if your team contains one or two developers. For projects of so size it is a very good and simple solution.
+A Postman Collection is a set of requests. It is easy to create a Collection from the requests. These Collections may then be executed by a Developer through the UI or from the command line using Newman [bibliography required] for incorporation into a Continuous Integration server.
+
+A Postman collection may also be created from API Blueprint using Blueman or apiary2postman. [bibliography required]
+
+The addition of Newman and Blueman has altered the comparison table and may make Postman a good fit for more projects, especially when authentication is required.
 
 #### frisby.js
 
@@ -112,7 +116,7 @@ Tool name | Description | Testing | CI integration | Total
 --------- |:-----------:|:-------:|:--------------:|:-----:
 **SOAP UI** | 3 | 2 | 3 | **3**
 **REST-assured** | 5 | 1 | 2 | **3**
-**Postman** | 3 | 2 | 5 | **4**
+**Postman** | 1 | 2 | 2 | **2**
 **frisby.js** | 5 | 4 | 2 | **4**
 **RAML** | 1 | 4 | 5 | **4**
 **Runscope Radar** | 3 | 3 | 5 | **3**
@@ -120,5 +124,7 @@ Tool name | Description | Testing | CI integration | Total
 [Summarizing table of RESTful API testing tools comparison][table-restful-api-testing-tools-comparison]
 
 At the end I think the most univarsal tool is Dredd[[13](../README.md/#Dredd)] using API Blueprint[[36](../README.md/#APIBlueprint)] now. The reason why I think so is that these tools are very well combined together. API Blueprint is used for description and can be published on Apiary[[20](../README.md/#Apiary)] website which generates simple documentation. The documentation also supports prototyping and development proxies to keep development of server and client separated. Some other tools are more powerful in some special cases but Dredd and API Blueprint is on a good way to support them too in my opinion. Their strengths are hardly to reach by other tools but technical improvements are easier in my opinion.
+
+With recent changes to Postman [[9](../README.md/#Postman)]and in conjunction with API Blueprint, there is a strong alternative to the Dredd/Api Blueprint combination.
 
 Next chapter focuses more on API Blueprint[[36](../README.md/#APIBlueprint)] syntax and its possibilities and also on Dredd[[13](../README.md/#Dredd)] and its behavior.
