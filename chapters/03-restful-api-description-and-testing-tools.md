@@ -58,7 +58,7 @@ On the other hand writing assertions is a little bit harder. It needs JavaScript
 
 A Postman Collection is a set of requests. It is easy to create a Collection from the requests. These Collections may then be executed by a Developer through the UI or from the command line using Newman[[41](../README.md/#newman)] for incorporation into a Continuous Integration server.
 
-A Postman collection may also be created from API Blueprint using Blueman[[39](../README.md/#blueman)] or apiary2postman[[40](../README.md/#apiary2postman)].
+A Postman collection may also be created from API Blueprint using Blueman[[39](../README.md/#Blueman)] or apiary2postman[[40](../README.md/#apiary2postman)].
 
 The addition of Newman and Blueman has altered the comparison table and may make Postman a good fit for more projects, especially when authentication is required.
 
