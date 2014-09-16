@@ -56,9 +56,9 @@ Postman[[9](../README.md/#postman)] supports almost all general HTTP[[14](../REA
 
 On the other hand writing assertions is a little bit harder. It needs JavaScript to write simple assertions. However it is so simple that it can be done by almost everyone. It also allows to assert response time to be fast enough. It can be uselful for basic performance testing. After all it can run defined collections of tests using defined environments. However I see a problem here.
 
-A Postman Collection is a set of requests. It is easy to create a Collection from the requests. These Collections may then be executed by a Developer through the UI or from the command line using Newman [bibliography required] for incorporation into a Continuous Integration server.
+A Postman Collection is a set of requests. It is easy to create a Collection from the requests. These Collections may then be executed by a Developer through the UI or from the command line using Newman[[41](../README.md/#newman)] for incorporation into a Continuous Integration server.
 
-A Postman collection may also be created from API Blueprint using Blueman or apiary2postman. [bibliography required]
+A Postman collection may also be created from API Blueprint using Blueman[[39](../README.md/#blueman)] or apiary2postman[[40](../README.md/#apiary2postman)].
 
 The addition of Newman and Blueman has altered the comparison table and may make Postman a good fit for more projects, especially when authentication is required.
 
