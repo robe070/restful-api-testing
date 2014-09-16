@@ -54,6 +54,7 @@ Choose some of the proposed modifications and implement them. Propose implemente
 	2. [Basic tools description](chapters/03-restful-api-description-and-testing-tools.md#basic-tools-description)
 		1. [SOAP UI](chapters/03-restful-api-description-and-testing-tools.md#soap-ui)
 		2. [REST assured](chapters/03-restful-api-description-and-testing-tools.md#rest-assured)
+		3. [Postman](chapters/03-restful-api-description-and-testing-tools.md#postman)
 		3. [frisby.js](chapters/03-restful-api-description-and-testing-tools.md#frisbyjs)
 		4. [RAML](chapters/03-restful-api-description-and-testing-tools.md#raml)
 		5. [Runscope Radar](chapters/03-restful-api-description-and-testing-tools.md#runscope-radar)
@@ -119,3 +120,5 @@ Choose some of the proposed modifications and implement them. Propose implemente
 - [36]<a name="APIBlueprint"></a>: *API Blueprint*. (http://apiblueprint.org)
 - [37]<a name="Cucumber4APIBlueprint"></a>: M. Štekl. *Cucumber 4 API Blueprint*. 2014. (https://github.com/stekycz/cucumber-4-api-blueprint)
 - [38]<a name="MITlicense"></a>: *MIT license*. (http://opensource.org/licenses/MIT)
+- [39]<a name="Blueman"></a>: *Blueman*. (http://git.io/blueman)
+- [40]<a name="apiary2postman"></a>: *apiary2postman*. (https://github.com/thecopy/apiary2postman)
