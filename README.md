@@ -122,3 +122,4 @@ Choose some of the proposed modifications and implement them. Propose implemente
 - [38]<a name="MITlicense"></a>: *MIT license*. (http://opensource.org/licenses/MIT)
 - [39]<a name="Blueman"></a>: *Blueman*. (http://git.io/blueman)
 - [40]<a name="apiary2postman"></a>: *apiary2postman*. (https://github.com/thecopy/apiary2postman)
+- [41]<a name="newman"></a>: *Newman*. (http://www.getpostman.com/docs/newman_intro)
